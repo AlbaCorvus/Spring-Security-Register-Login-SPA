@@ -1,0 +1,70 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+
+html{
+height:100%;
+width:100%;
+}
+
+body{
+height:100%;
+width:100%;
+background-image:url('http://alittleadrift.com/wp-content/uploads/2010/01/typing-laptop.jpg');
+background-size:100% 100%;
+background-repeat:no-repeat;
+
+}
+
+.RegistryError{
+
+margin: auto auto;
+width:50%;
+background-color:#f67a7a;
+border:1px solid #f6aaaa;
+color:white;
+font-family:'Oswald',sans-serif;
+text-align:center;
+vertical-align:middle;
+}
+
+.messageholder{
+position:absolute;
+top:20%;
+left:35%;
+width:30%;
+min-height:20%;
+border:1px solid white;
+background-color:#f6f6f6;
+}
+
+.accepted{
+
+ margin: auto auto;
+ width:50%;
+ background-color:#7af67a;
+ border:1px solid #aaf6aa;
+ color:white;
+ font-family:'Oswald',sans-serif;
+ text-align:center;
+ vertical-align:middle;
+ }
+
+ a{
+ margin: 20px auto;
+ display:block;
+ width:10%;
+ border:1px solid white;
+ text-decoration:none;
+ padding:0;
+ color:white;
+ background-color:#0080ff;
+ text-align:center;
+ font-family:'Oswald',sans-serif;
+ transition:background-color 0.5s ease;
+ transition:color 0.5s ease;
+ }
+
+ a:hover{
+ background-color:white;
+ color:#0080ff;
+
+ }

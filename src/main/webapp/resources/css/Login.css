@@ -1,0 +1,443 @@
+@import 'https://fonts.googleapis.com/css?family=Oswald';
+body {
+    position:relative;
+    width:100%;
+    height:100%;
+
+}
+
+html{
+    height:100%;
+}
+
+.filter-white{
+    position:absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height:101%;
+    margin-top:-10px;
+    margin-left:-10px;
+    background-color:rgba(255, 255, 255,0.4);
+
+}
+
+#filter-black{
+    width:100%;
+    height:100%;
+    margin:-10px;
+    background-color:rgba(0,0,0,0.3);
+}
+
+#copyright{
+    background-color:#fefefe;
+    width:80%;
+    text-align:center;
+    color:#b200ff;
+}
+
+#login-content{
+    margin:10%;
+}
+
+#login-content p{
+    text-align:justify;
+    font-family:'Oswald',sans-serif;
+    font-size:1.2em;
+}
+
+.spacing{
+    width:100%;
+    min-height:75px;
+    background-color:rgba(0,0,0,0);
+}
+
+#logo-holder{
+    width:70%;
+    height:120px;
+    border-radius:5px 5px 5px 5px;
+    -webkit-box-shadow: 11px 14px 5px -8px rgba(0,0,0,0.5);
+    -moz-box-shadow: 11px 14px 5px -8px rgba(0,0,0,0.5);
+    box-shadow: 11px 14px 5px -8px rgba(0,0,0,0.5);
+    margin:15%;
+    background-image:url("../images/Logo.png");
+    background-size:cover;
+
+}
+
+#login-options{
+    margin:10%;
+    background-color:rgba(0,0,0,0);
+    width:70%;
+}
+
+.login-table{
+    width:100%;
+
+}
+
+.login-table tr{
+    border:none;
+}
+
+.login-table td{
+    border:none;
+
+
+}
+
+
+.registry-form-holder{
+    position:absolute;
+    top:20%;
+    left:35%;
+    width:30%;
+    background-color:rgba(0,0,0,0.2);
+    border:1px solid #fff;
+}
+
+.registry-form-holder label{
+    color:#79bced;
+    text-align:center;
+    font-family:'Oswald',sans-serif;
+}
+
+.registry-form-holder section{
+    margin-left:25%;
+}
+
+.registry-form-holder section b{
+    text-align:justify;
+    font-family:'Oswald',sans-serif;
+    font-size:1.2em;
+    color:#b6ff00;
+}
+.registry-form-holder input[type=submit]{
+    width:20%;
+    margin-left:30%;
+    margin-bottom:20px;
+    border-radius:10px 10px 10px 10px;
+    background-color:#79bced;
+    font-family:'Oswald',sans-serif;
+    border:1px solid #fefefe;
+    margin-top:20px;
+    font-weight:bold;
+    font-size:.85em;
+}
+
+.registry-form-holder input[type=submit]:hover{
+    background-color:#599ccd;
+}
+
+.registry-form-holder a{
+    display:inline-block;
+    width:20%;
+    margin-left:30%;
+    margin-bottom:20px;
+    border-radius:10px 10px 10px 10px;
+    background-color:#79bced;
+    font-family:'Oswald',sans-serif;
+    border:1px solid #fefefe;
+    font-weight:bold;
+    font-size:.85em;
+    text-decoration:none;
+    text-align:center;
+}
+
+.registry-form-holder a:visited{
+    color:#000;
+}
+
+.registry-form-holder a:hover{
+    background-color:#599ccd;
+}
+
+/* Server side response div styling for error on registration */
+
+.RegistryError{
+
+margin:0 auto;
+min-height:10%;
+min-width:80%;
+background-color:#ff80ab;
+color:#000;
+font-family:'Oswald',sans-serif;
+}
+
+.accepted{
+margin:0 auto;
+min-width:80%;
+min-height:10%;
+background-color:#99e099;
+color:#fff;
+font-family:'Oswald',sans-serif;
+}
+
+/* Login form details css*/
+
+#login-box{
+    position:absolute;
+    top:20%;
+    left:35%;
+    width:30%;
+    background-color:rgba(0,0,0,0.2);
+    border:1px solid #fff;
+}
+
+#login-box label{
+    color:#79bced;
+    text-align:center;
+    font-family:'Oswald',sans-serif;
+}
+
+#login-box section{
+    margin-left:25%;
+}
+
+#login-box section b{
+    text-align:justify;
+    font-family:'Oswald',sans-serif;
+    font-size:1.2em;
+    color:#b6ff00;
+}
+#login-box input[type=submit]{
+    width:20%;
+    margin-left:30%;
+    margin-bottom:20px;
+    border-radius:10px 10px 10px 10px;
+    background-color:#79bced;
+    font-family:'Oswald',sans-serif;
+    border:1px solid #fefefe;
+    margin-top:20px;
+    font-weight:bold;
+    font-size:.85em;
+}
+
+#login-box input[type=submit]:hover{
+    background-color:#599ccd;
+}
+
+#login-box a{
+    display:inline-block;
+    width:20%;
+    margin-left:30%;
+    margin-bottom:20px;
+    border-radius:10px 10px 10px 10px;
+    background-color:#79bced;
+    font-family:'Oswald',sans-serif;
+    border:1px solid #fefefe;
+    font-weight:bold;
+    font-size:.85em;
+    text-decoration:none;
+    text-align:center;
+}
+
+#login-box a:visited{
+    color:#000;
+}
+
+#login-box a:hover{
+    background-color:#599ccd;
+}
+
+/* end of login form css */
+
+.login-table a{
+    display:block;
+    font-family:'Oswald',sans-serif;
+    text-decoration:none;
+    min-height:60px;
+    line-height:60px;
+    text-align:center;
+    background-color:#79bced;
+    color:#fefefe;
+    border:1px solid #fefefe;
+}
+
+.login-table a:hover{
+    border:1px solid;
+    border-color:#b6ff00;
+}
+
+
+#login-side-bar{
+    position:absolute;
+    margin-top:-10px;
+    width:25%;
+    min-height:102%;
+    background-color:#fefefe;
+    display:none;
+}
+
+/* error styling for form messages */
+.registernameerror{
+display:none;
+color:#f61a1a;
+font-family:'Oswald',sans-serif;
+}
+
+.registeremailerror{
+display:none;
+color:#f61a1a;
+font-family:'Oswald',sans-serif;
+}
+
+.loginnameerror{
+display:none;
+color:#f61a1a;
+font-family:'Oswald',sans-serif;
+}
+
+/*slider css styling*/
+
+.switch {
+  position: relative;
+  display: inline-block;
+  width: 130px;
+  height: 34px;
+
+}
+
+/* Hide default HTML checkbox */
+.switch input {display:none;}
+
+/* The slider */
+
+#switch-container{
+    width:30%;
+    margin:0 auto;
+}
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+
+.slider p{
+  font-family:'Oswald',sans-serif;
+  font-weight:bold;
+  color:#000;
+  line-height:0px;
+  float:right;
+  margin-right:10px;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+  -webkit-transition: .4s;
+  transition: .4s;
+}
+input:checked + .slider {
+  background-color: #2196F3;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 1px #2196F3;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(96px);
+  -ms-transform: translateX(96px);
+  transform: translateX(96px);
+}
+
+/* Rounded sliders */
+.slider.round {
+  border-radius: 34px;
+}
+
+.slider.round:before {
+  border-radius: 50%;
+}
+
+/*photo viewer css markup for home page */
+#photo-viewer{
+position:relative;
+height:300px;
+overflow:hidden;
+}
+
+#photo-viewer.is-loading:after{
+content:url('../images/load.gif');
+position:absolute;
+top:0;
+right:0;
+}
+.gallery{
+  width: 400px;
+  padding: 20px;
+  float: left;}
+
+#photo-viewer img{
+position:absolute;
+max-width:100%;
+max-height:100%;
+top:50%;
+left:50%;
+}
+
+a.active{
+opacity:0.3;
+}
+
+#thumbnails {
+  margin: 10px 5px 0 0;
+  height: 60px;}
+
+  /********** SLIDER **********/
+
+
+  .slide-viewer {
+      position: relative; /* needed for IE7 */
+      overflow: hidden;
+      height: 100%
+      width:100%;
+      margin-top: -20px;
+      margin:left:-15px;}
+
+  .slide-group {
+      width: 100%;
+      height: 100%;
+      position: relative;}
+
+  .slide {
+      width: 100%;
+      height: 100%;
+      display: none;
+      position: absolute;}
+
+  .slide:first-child {
+      display: block;}
+
+      .slide img{
+      height:100%;
+      width:100%;
+      }
+
+
+  /********** BUTTONS **********/
+  .slide-buttons {
+    text-align: center;}
+
+  .slide-btn {
+    border: none;
+    background: none;
+    color: #000;
+    font-size: 200%;
+    line-height: 0.5em;}
+
+  .slide-btn.active, .slide-btn:hover {
+    color: #ed8e6c;
+    cursor: pointer;}
